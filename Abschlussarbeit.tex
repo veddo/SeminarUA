@@ -32,13 +32,13 @@
 
 \geometry{a4paper, top=27mm, left=30mm, right=20mm, bottom=35mm, headsep=10mm, footskip=12mm}
 
-\hypersetup{unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH},
-	pdftitle={Abschlussarbeit},
-	pdfauthor={Daniel Brettschneider},
-	pdfsubject={Abschlussarbeit},
+\hypersetup{unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={HSHN},
+	pdftitle={Seminar Unternehmensanwendungen},
+	pdfauthor={Vedad Hamamdzic},
+	pdfsubject={Seminar},
 	pdfcreator={\LaTeX\ with package \flqq hyperref\frqq},
 	pdfproducer={pdfTeX \the\pdftexversion.\pdftexrevision},
-	pdfkeywords={Abschlussarbeit},
+	pdfkeywords={Seminar},
 	pdfnewwindow=true,
 	colorlinks=true,linkcolor=black,citecolor=black,filecolor=magenta,urlcolor=black}
 \pdfinfo{/CreationDate (D:20110620133321)}
@@ -54,7 +54,7 @@
 \lhead{}
 \chead{}
 \rhead{\thesection\space\contentsname}
-\lfoot{Beispiel für eine Abschlussarbeit\newline auch mit langem Titel}
+%\lfoot{Beispiel für eine Abschlussarbeit\newline auch mit langem Titel}
 \cfoot{}
 \rfoot{\ \linebreak Seite \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -179,13 +179,93 @@ Das ganze auf Englisch.
 % Einleitung
 % ----------------------------------------------------------------------------------------------------------
 \section{Einleitung}
-Daten sind im wirtschaftlichen Kontext betrachtet, eine wichtige Resouce. Doch ungeachtet des hohen Stellenwerts sind Daten von niedriger Qualität in Unternehmen allgegenwärtig. Gerade diese, mangelhaften Daten können wirtschaftliche Konsequenzen
-mit sich bringen. Nach dem garbage-in-garbage-out Prinzip zieht sich die Problematik durch sämtliche Prozesse, die diese Daten nutzen.
+Daten sind im wirtschaftlichen Kontext betrachtet, eine wichtige Resouce. Doch ungeachtet des hohen Stellenwerts sind Daten von niedriger Qualität in Unternehmen allgegenwärtig. Gerade diese, mangelhaften Daten können wirtschaftliche Konsequenzen mit sich bringen. Nach dem garbage-in-garbage-out Prinzip zieht sich die Problematik durch sämtliche Prozesse, die diese Daten nutzen. Doch was sind Daten eigentlich? Nach der Definition von Reh{\"a}user und Krcmar :
+\begin{quote}
+Informationen sind 
+Daten, die in einen Kontext – also einen Problemzusammenhang – gestellt wurden (vgl. Rehäuser u. Krcmar 1996, S. 4, \cite{rehauser}).
+\end{quote}
+
+Somit werden Buchstaben,Ziffern und Sonderzeichen durch Ordnungsregeln (einen Code oder eine Syntax) zu Daten.\cite{north}
 Doch Datenqualität beginnt nicht erst bei dem erfassen der Daten.
 Auch andere Faktoren spielen eine Rollen wie z.B. Modellierung der Datenbanken aber auch Organisatorische Aspekte sind nicht zu vernachlässigen. Um Datenqualität im Unternehmensumfeld zu gewährleisten ist es sicherlich nicht falsch das Unternehmen als individuelles ganzes zu betrachten. Denn jedes Unternehmen hat
-aufgrund der einzigartigen Bedürfnisse ihres Systems mit verschiedenen Problemen zu Kämpfen. Die Homogenität der Standards in der IT Branche erfordert diese Betrachtungsweise. Jedoch soll diese Review eine Data Governance definieren die allgemein gültige Richtlinen aufzeigt. Es stellt sich die Frage, Welche Anforderungen an ein Data Governance sollte ein Unternehmen hinsichtlich einer hohen Datenqualität erfüllen? Um antworten auf die Frage zu finden werde ich Faktoren extrahieren die Einfluss auf Qualität von Daten haben. Wie bereits erwähnt sind da Organisatorische und Technische Aspekte zu untersuchen.  
-Anfangs ist es jedoch essenziell klar zu stellen, was unter hoher Datenqualität zu verstehen ist. Daher wird die Review auch so aufgebaut sein das zunächst klargestellt wird was die Litaratur über
-Qualitätsmerkmale von Daten  Definiert. Im weiteren Verlauf wird Litaratur Untersucht die Vorgehensweisen bei der Steigerung der Qualität im Technischen als auch im Organisatorischen Kontext beschreibt.   
+aufgrund der einzigartigen Bedürfnisse ihres Systems mit verschiedenen Problemen zu Kämpfen. Die He­te­ro­ge­ni­tät der Standards in der IT Branche erfordert diese Betrachtungsweise. Jedoch soll diese Review eine Data Governance definieren die allgemein gültige Richtlinen aufzeigt. Es stellt sich die Frage, Welche Anforderungen an ein Data Governance sollte ein Unternehmen hinsichtlich einer hohen Datenqualität erfüllen? Um antworten auf die Frage zu finden werde ich Faktoren extrahieren die Einfluss auf Qualität von Daten haben. Wie bereits erwähnt sind da Organisatorische und Technische Aspekte zu untersuchen.Anfangs ist es jedoch essenziell klar zu stellen, was unter hoher Datenqualität zu verstehen ist. Daher wird die Review auch so aufgebaut sein das zunächst untersucht wird was die Litaratur über Qualitätsmerkmale von Daten Definiert. Im weiteren Verlauf wird Litaratur analysiert welche die Vorgehensweisen zur Steigerung der Qualität im Technischen Kontext beschreibt. Als letzter Faktor der Einfluss auf die Qualität von Daten hat, werden Kriterien an das Informationsmanagement und Organisation untersucht. Durch das Rubrizieren ist man in der Lage die Auswahl für die Litaratur besser einzugrenzen. Es trennt aber auch klar in welchen Fachbereichen gewisse Regeln gelten sollen und Definiert somit auch Richtlinien für die einzelnen Bereiche eines Unternehmens. 
+
+\newpage
+
+\section{Begriffserklärung}
+Im Folgenden werden die Grundbegriffe Information, Daten,Datenqualität, Data Governance eingeführt und definiert.
+\subsection*{Information und Daten}
+Oft werden die Begriffe Daten, Information und Wissen als Synonyme verwendet, doch dem ist aber nicht so. Daten Entstehen erst wenn man Zeichen in einen definierten, strukturierten Zusammenhang gebracht hat, erst dann kann man von \textbf{Daten} sprechen. Ein Beispiel
+"525" sind drei Zahlen versehen ich sie noch mit einem Komma 52,50 \$ und einem Dollar Zeichen so wird es zur \textbf{Information}.
+Gibt man noch einen Kontext dazu wie z.B. Rohölpreis in Barell hat man Wissen.   
+
+\subsection*{Datenqualität}
+Daten von schlechter Qualität enthalten Datenfehler, 
+Redundanzen, fehlende Werte, falsche Formatierungen usw.
+Shawn Tuner defnierte im Jahre 2002 den Begriff Datenqualität
+\begin{quote}
+Die Datenqualität ist die Fitness der Daten für alle Zwecke, die sie benötigen. Messdatenqualität erfordert ein Verständnis aller beabsichtigten Verwendungszwecke für diese Daten. \cite{turner}
+\end{quote}
+Damit meint Turner die Eignung der Daten für die weitere Nutzung, ganz unabhängig davon ob diese durch Anwendungen geschieht oder Personen. 
+\subsection*{Data Governance}
+Für Data Governance gibt keine einheitliche Definition, eher eine Abgrenzung des Begriffs. 
+\begin{quote}
+Data Governance ist der Rahmen für Datenqualitätsmanagement und legt fest, welche Rollen mit welchen Zuständigkeiten die Aufgaben des Datenqualitätsmanagement übernehmen.
+Häufig konkretisiert sich Data Governance in Richtlinien und Vorgaben für den Umgang und die Pflege von Daten gemäß den betriebswirtschaftlichen Zielsetzungen des Unternehmens.\cite{hildebrand2008daten}
+\end{quote}
+
+\newpage
+
+\section{Methodik}
+Die Autoren Webster und Watson (2002) haben eine Definition der Literaturanalyse veröffentlicht. Sie definierten diese
+Forschungsmethode als:\begin{quote} „ solide Grundlage mit welcher es möglich sei, die Menge der existierenden Erkenntnisse darzulegen und im Anschluss daran aufzuzeigen in welchen Bereichen weitere Forschung angestrebt werden sollte“  \cite{webster2002analyzing}\end{quote}
+Die Literaturanalyse als Forschungsmethode lässt sich nach dem Handbuch der Reviewforschung \cite{hedges1993research} methodisch in fünf Phasen unterteilen (Abbildung 1). Auch Peter Fettke  erwähnt diese Phasen in seinem Artikel State-of-the-Art des State-of-the-Art \footnote{Vgl.\cite{fettke2006state}}. Im Weiterem Verlauf der Analyse werde ich die Phasen der Reviewforschung untersuchen und hinsichtlich meiner Forschungsfrage abarbeiten. 
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{Bilder/phasen.png}
+	\captionof{figure}[Fünf Phasen der Reviewforschung]
+	\label{Fünf Phasen der Reviewforschung}
+\end{minipage}
+
+Wärend der ersten Phase wird die Frage, die durch das Review zu beantworten
+ist präzise ausformuliert. Das auswerten der Literatur ist in der zweiten Phase beschrieben. Darin geht es Primär darum für die Fragestellung geeignete Literatur zu recherchieren. Darauf folgt die Identifizierung von Relevanter Literatur welche man dann in der vierten Phase Analysiert und Interpretiert. Das Präsentieren der Ergebnisse ist die letzte der fünf Phasen.Für diese Analyse werden Primär Quellen in spezialisierte Suchmaschinen für wissenschaftlich Publikationen gesucht. Während der Untersuchung und Ausarbeitung dieser Analyse wurden ausschließlich folgende
+Suchmaschinen genutzt.
+\begin{compactitem}
+	\item link.springer.com
+	\item scholar.google.de
+	\item boss.bsz-bw.de/HSHN/
+\end{compactitem}
+zur auswahl der in dieser Arbeit benutzten wissenschaftlichen Zeitschriften  gehören die vom Springer-Verlag herausgegebene Zeitschrift Informatik Spektrum sowie die Zeitschrift Wirtschaftsinformatik sowie "Journal of management information systems". Diese Zeitschriften sind auf der WI-Journalliste 2008 zu finden. Diese Liste soll als Orientierung dienen. Ausgearbeitet von  zwei Arbeitskreisen deren Mitglieder universitets Professoren aus Österreich, Deutschland und der Schweiz sind\cite{WiLis}.
+Der zeitlichen Intervall zur Auswahl der Literatur wird auf 1990 bis heute begrenzt. ----BEGRÜNDEN----
+
+Die Keywords welche zur Recherche in den oben genannten Suchmaschinen genutzt werden sind dem Kontext des Fachbereichs einzuordnen.
+
+Keywords Kontext Datenqualität
+\begin{compactitem}
+	\item Datenqualität - data quality
+	\item Datenqualität in Unternehmen - Data quality in business
+	\item Qualitätsmerkmale - quality features
+\end{compactitem}
+
+Keywords Faktor Technik
+\begin{compactitem}
+	\item Datenbank Modellierung - database modeling
+	\item Datenbankmanagementsysteme - Database Management Systems
+	\item GUI (graphical user interface)
+\end{compactitem}
+
+Keywords Faktor Informationsmanagement und Organisation
+\begin{compactitem}
+	\item Informationsmanagement - information Management 
+	\item Datenmanagement - data Management
+\end{compactitem}
+
+
+
+
+
 \section{Faktor Datenqualität}
 Die Qualität von Daten wird von verschiedensten Faktoren bestimmt,  laut Redman die Fähigkeit, die Anforderungen der beabsichtigten
 Nutzung in einer bestimmten Situation zu erfüllen („fitness for use“) \cite{redman} in Kombination mit den Qualitätsmerkmalen nach Wang & Strong, welche die Merkmale Klassifizieren und somit Redmans Definition stützen. 

@@ -3,47 +3,71 @@ The top-level auxiliary file: Abschlussarbeit.aux
 The style file: myalpha.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 472446405560.
 Database file #1: bibo.bib
+You're missing a field name---line 2 of file bibo.bib
+ : 
+ : % author = {Max Mustermann},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "online" isn't style-file defined
---line 57 of file bibo.bib
-You've used 3 entries,
+--line 162 of file bibo.bib
+You're missing a field name---line 163 of file bibo.bib
+ : 
+ : % author = {Daniel Brettschneider},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in WiLis
+Warning--to sort, need author, editor, or key in buch
+Warning--to sort, need author or key in online
+Warning--empty author and editor in buch
+Warning--empty author and editor in buch
+Warning--empty title in buch
+Warning--empty publisher in buch
+Warning--online
+ptr=1, stack=
+
+---the literal stack isn't empty for entry online
+while executing---line 4409 of file myalpha.bst
+Warning--empty pages in turner
+Warning--empty author in WiLis
+You've used 11 entries,
             4793 wiz_defined-function locations,
-            906 strings with 6611 characters,
-and the built_in function-call counts, 1344 in all, are:
-= -- 125
-> -- 24
-< -- 25
-+ -- 24
-- -- 6
-* -- 75
-:= -- 235
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 12
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 49
-empty$ -- 120
-format.name$ -- 18
-if$ -- 278
+            947 strings with 7461 characters,
+and the built_in function-call counts, 5463 in all, are:
+= -- 557
+> -- 107
+< -- 117
++ -- 128
+- -- 37
+* -- 351
+:= -- 871
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 43
+chr.to.int$ -- 11
+cite$ -- 24
+duplicate$ -- 183
+empty$ -- 471
+format.name$ -- 62
+if$ -- 1141
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 27
-num.names$ -- 9
-pop$ -- 24
+missing$ -- 46
+newline$ -- 66
+num.names$ -- 24
+pop$ -- 82
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 65
 quote$ -- 0
-skip$ -- 65
+skip$ -- 285
 stack$ -- 0
-substring$ -- 84
-swap$ -- 7
-text.length$ -- 7
-text.prefix$ -- 3
+substring$ -- 423
+swap$ -- 31
+text.length$ -- 24
+text.prefix$ -- 5
 top$ -- 0
-type$ -- 22
-warning$ -- 0
-while$ -- 10
-width$ -- 5
-write$ -- 44
-(There was 1 warning)
+type$ -- 90
+warning$ -- 10
+while$ -- 40
+width$ -- 13
+write$ -- 132
+(There were 3 error messages)
