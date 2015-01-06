@@ -9,8 +9,8 @@ You're missing a field name---line 2 of file bibo.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "online" isn't style-file defined
---line 162 of file bibo.bib
-You're missing a field name---line 163 of file bibo.bib
+--line 180 of file bibo.bib
+You're missing a field name---line 181 of file bibo.bib
  : 
  : % author = {Daniel Brettschneider},
 (Error may have been on previous line)
@@ -29,45 +29,45 @@ ptr=1, stack=
 while executing---line 4409 of file myalpha.bst
 Warning--empty pages in turner
 Warning--empty author in WiLis
-You've used 11 entries,
+You've used 12 entries,
             4793 wiz_defined-function locations,
-            947 strings with 7461 characters,
-and the built_in function-call counts, 5463 in all, are:
-= -- 557
-> -- 107
-< -- 117
-+ -- 128
-- -- 37
-* -- 351
-:= -- 871
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 43
-chr.to.int$ -- 11
-cite$ -- 24
-duplicate$ -- 183
-empty$ -- 471
-format.name$ -- 62
-if$ -- 1141
+            958 strings with 7673 characters,
+and the built_in function-call counts, 6425 in all, are:
+= -- 667
+> -- 126
+< -- 136
++ -- 149
+- -- 43
+* -- 429
+:= -- 1013
+add.period$ -- 13
+call.type$ -- 12
+change.case$ -- 48
+chr.to.int$ -- 12
+cite$ -- 25
+duplicate$ -- 204
+empty$ -- 548
+format.name$ -- 73
+if$ -- 1350
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 66
-num.names$ -- 24
-pop$ -- 82
+missing$ -- 52
+newline$ -- 74
+num.names$ -- 27
+pop$ -- 88
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 72
 quote$ -- 0
-skip$ -- 285
+skip$ -- 319
 stack$ -- 0
-substring$ -- 423
-swap$ -- 31
-text.length$ -- 24
+substring$ -- 552
+swap$ -- 37
+text.length$ -- 28
 text.prefix$ -- 5
 top$ -- 0
-type$ -- 90
+type$ -- 100
 warning$ -- 10
-while$ -- 40
-width$ -- 13
-write$ -- 132
+while$ -- 47
+width$ -- 14
+write$ -- 150
 (There were 3 error messages)

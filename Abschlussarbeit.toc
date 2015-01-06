@@ -8,24 +8,25 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {section}{\numberline {2}Begriffserkl\IeC {\"a}rung}{2}{section.2}
 \contentsline {section}{\numberline {3}Methodik}{3}{section.3}
-\contentsline {section}{\numberline {4}Faktor Datenqualit\IeC {\"a}t}{4}{section.4}
-\contentsline {section}{\numberline {5}Technische Faktoren}{4}{section.5}
-\contentsline {section}{\numberline {6}Faktor Organisation}{4}{section.6}
-\contentsline {subsection}{\numberline {6.1}Bilder}{4}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Tabellen}{5}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Auflistung}{6}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Listings}{6}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Tipps}{6}{subsection.6.5}
-\contentsline {section}{\numberline {7}Kapitel}{7}{section.7}
-\contentsline {subsection}{\numberline {7.1}Unterkapitel}{7}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Unterkapitel}{7}{subsection.7.2}
-\contentsline {section}{\numberline {8}Kapitel}{8}{section.8}
-\contentsline {subsection}{\numberline {8.1}Unterkapitel}{8}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Unterkapitel}{8}{subsection.8.2}
-\contentsline {section}{\numberline {9}Kapitel}{9}{section.9}
-\contentsline {subsection}{\numberline {9.1}Unterkapitel}{9}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Unterkapitel}{9}{subsection.9.2}
-\contentsline {section}{\numberline {10}Quellenverzeichnis}{10}{section.10}
-\contentsline {section}{Anhang}{I}{section*.4}
+\contentsline {subsection}{\numberline {3.1}Suchprotokoll}{5}{subsection.3.1}
+\contentsline {section}{\numberline {4}Faktor Datenqualit\IeC {\"a}t}{5}{section.4}
+\contentsline {section}{\numberline {5}Technische Faktoren}{5}{section.5}
+\contentsline {section}{\numberline {6}Faktor Organisation}{5}{section.6}
+\contentsline {subsection}{\numberline {6.1}Bilder}{5}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Tabellen}{6}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Auflistung}{7}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Listings}{7}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Tipps}{7}{subsection.6.5}
+\contentsline {section}{\numberline {7}Kapitel}{8}{section.7}
+\contentsline {subsection}{\numberline {7.1}Unterkapitel}{8}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Unterkapitel}{8}{subsection.7.2}
+\contentsline {section}{\numberline {8}Kapitel}{9}{section.8}
+\contentsline {subsection}{\numberline {8.1}Unterkapitel}{9}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Unterkapitel}{9}{subsection.8.2}
+\contentsline {section}{\numberline {9}Kapitel}{10}{section.9}
+\contentsline {subsection}{\numberline {9.1}Unterkapitel}{10}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Unterkapitel}{10}{subsection.9.2}
+\contentsline {section}{\numberline {10}Quellenverzeichnis}{11}{section.10}
+\contentsline {section}{Anhang}{I}{section*.5}
 \vspace {-0.5em}
 \contentsline {section}{\numberline {A}GUI}{I}{section.A}
